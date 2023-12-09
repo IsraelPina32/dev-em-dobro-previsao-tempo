@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700&display=swap');
+
+ body {
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #dadadd;
+ }
+
+ 
+
+ .container {
+    background-color: #1f2949;
+    color: #ffffff;
+    max-width: 320px;
+    text-align: center;  
+    background-image: url(../img/tempo-nublado.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0,  0.1) 0 10px 50px;
+ }
+
+ .busca {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+ }
+
+ .busca input {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 900;
+    opacity: 0.9;
+ }
+
+.busca .btn-busca {
+    background-color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    opacity: 0.8;
+}
+
+.busca .lupa {
+    width: 30px;
+    padding: 6px;
+    opacity: 0.8;
+}
+
+.informacao-principal {
+    margin: 30px;
+}
+
+.informacao-principal h1 {
+    color: #000000;
+    font-size: 19px;
+}
+
+.informacao-principal .temperatura {
+    font-size: 68px;
+    margin: 20px 0;
+}
+
+.informacao-principal .condicao {
+    font-size: 20px;
+}
+
+.informacao-secundaria {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.informacao-secundaria .humidade, 
+.informacao-secundaria .velocidade-do-vento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+@media(max-width: 320px){
+    .container {
+        width: 300px;
+    }
+
+    .busca input {
+        font-size: 13px;
+    }
+}
