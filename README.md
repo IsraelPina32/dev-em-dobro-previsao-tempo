@@ -17,6 +17,10 @@ Site web dedicado para mostrando a previsão de tempo em vida real em todo mundo
 - CSS
 - Javascript
 
+## Site da APi
+- <a href="https://www.weatherapi.com<"></a>
+
+
 ## O que eu Aprendir com essas Tecnologias
 
 O maior desafio foi aprender com uma Api uma coisa que nunca fiz porém decidir me desafia e  achei o resultado muito grafiticante!
