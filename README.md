@@ -8,7 +8,7 @@ Site web dedicado para mostrando a previsão de tempo em vida real em todo mundo
 
 
 
-<img src="./src/img/Animação.gif" alt="katarina-gif" height="500px" width="700px"> 
+<img src="./src/img/previsao-tempo-animacao.gif" alt="katarina-gif" height="500px" width="700px"> 
 
 
 ## Tecnologias utilizadas, Technologies used
