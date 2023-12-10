@@ -1,4 +1,4 @@
-# Projeto de Previsão de Tempo com Api
+# Projeto de Previsão de Tempo com API.
 
 
 Site web dedicado para mostrando a previsão de tempo em vida real em todo mundo. 
